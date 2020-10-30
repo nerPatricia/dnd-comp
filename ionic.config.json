@@ -1,0 +1,7 @@
+{
+  "name": "dnd-comp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
