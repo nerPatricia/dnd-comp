@@ -1,4 +1,13 @@
 <div id="container">
   <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI
+      Components</a></p>
+  <p>{{ text }}</p>
+  <h1>{{ text }}</h1>
+  <ion-label>{{ text }}</ion-label>
+  <ion-row>
+    <ion-col style="background-color: rgb(214, 2, 2)">
+      <ion-button *ngIf="botaoFlag" (click)="changeColor('preto')">Butão</ion-button>
+    </ion-col>
+  </ion-row>
 </div>
